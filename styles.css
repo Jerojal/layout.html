@@ -1,1 +1,25 @@
+body {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.header {
+	background-color: blue;
+	
+}
 
+nav {
+	background-color: green;
+	
+}
+
+section {
+	background-color: red;
+	
+}
+
+}
+.main {
+	background-color:purple;
+}

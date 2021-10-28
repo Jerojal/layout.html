@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	<title>Assignment 5 B</title>
+	<title>Assignment 5B</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -15,7 +15,6 @@
 		}
 		
 	header {
-		background-color: #666;
 		padding: 30px;
 		text-align: center;
 		font-size: 35px;
@@ -25,41 +24,46 @@
 	section {
 		display: -webkit-flex;
 		display: flex;
-	}
-	header {
-		background-color: #666;
-		padding: 30px;
-		text-align: center;
+		text-align: right;
 		font-size: 35px;
-		color: white;
-	}
-
-	section {
-		display: -webkit-flex;
-		display: flex;
+		
 	}
 	
 	nav {
 		-webkit-flex: 1; 
 		-ms-flex: 1;
 		flex: 1;
-		background: #ccc;
 		padding: 20px;
+		text-align: center;
 	}
 	
 	nav ul {
 		list-style-type: none;
+		text-align: center;
 		padding: 0;
+		font-size: 25px;
 	}
 	
 	article {
 		-webkit-flex: 3;
 		-ms-flex: 3;
 		flex: 3;
-		background-color: #f1f1f1;
 		padding: 10px;
+		font-size: 35px;
+		text-align: left;
+		background-color: gray;
 	}
-	
+	aside {
+		-webkit-flex: 3;
+		-ms-flex: 3;
+		width: 30%;
+		padding-left: 15px;
+		margin-left: 15px;
+		align-text: right;
+		background-color, brown;
+		
+	}
+			
 	footer {
 		background-color: #777;
 		padding: 10px;
@@ -71,24 +75,35 @@
 			-webkit-flex-direction: column;
 			flex-direction: column;
 		  }
-		}		
-	</style>
+				
+</style>
 	</head>
 	<body>
 	
-	<header>
-    <h2>Header </h2>
+	<header class="header">
+    <h1>Assignment 5B </h1>
 	</header>
+	<nav>
+		<ul>
+		<li><a href="https://jerojal.github.io/second.html/">edellinen index sivu</a></li>
+		<li><a href="https://jerojal.github.io/second.html/second.html">edellinen second sivu</a></li>
+		</ul>
+	</nav>
 	
-	<section>
-    <div class="main">
-        <div class="gfg">nav</div>
-        <div class="gfg">section</div>
-        <div class="gfg">article</div>
-        <div class="gfg">aside</div>
+	<article>
+		<h2>Section kohta on tässä</h2>
+	
+	
+	
+	<section class="main">
+		<h2>article</h2>
+	</section >
 		
+	 
+	</article>	
+	<aside>…dasdsda</aside>	
 	<footer> 
-		<p>Footer</p>
+		<h2>Footer</h2>
 	</footer>
 		
 	</body>
