@@ -19,7 +19,9 @@ section {
 	
 }
 
-}
 .main {
 	background-color:purple;
+}
+aside {
+	float:right;
 }
